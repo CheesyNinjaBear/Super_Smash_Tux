@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://c6qmlepsqwh78"]
+[gd_scene load_steps=3 format=3 uid="uid://c6qmlepsqwh78"]
 
 [ext_resource type="PackedScene" uid="uid://dmcov0ickd8v1" path="res://Player.tscn" id="1_glv2v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_glv2v"]
+albedo_color = Color(0.21521604, 0.27304277, 0.41538408, 1)
 
 [node name="Node3D" type="Node3D"]
 
@@ -10,6 +13,7 @@
 
 [node name="floor" type="CSGBox3D" parent="terain"]
 size = Vector3(25, 3, 5)
+material = SubResource("StandardMaterial3D_glv2v")
 
 [node name="sky_block1" type="CSGBox3D" parent="terain"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.59191, 4.59105, 0)
