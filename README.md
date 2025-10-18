@@ -34,9 +34,50 @@ this software is released under the GNU GENERAL PUBLIC LICENSE Version 3, 29 Jun
 
 (this part will be added latter once the project is further along.)XXX
 
+## Controll scheme
+for the controll sceme there are three controller options
+1. is six buttons along with a controll stick
+2. is six buttons along with a plus pad
+3. a full controller that is effectivly any modern gaming controller
+
+each button has a number that goes with it these are the recomended uses
+### standard with stick
+
+### standard with plus pad
+1. atack standard
+2. player movement
+3. start
+4. slect
+5. atack special
+6. XXX
+7. XXX
+
+### full controller
+1. atack standard
+2. player movement
+3. start
+4. slect
+5. atack special
+6. XXX
+7. XXX
 
 ## User inspiration inspirations
+1. atack standard
+2. player movement
+3. start
+4. slect
+5. jump
+6. XXX
+7. XXX
+8. XXX
+9. taunt
+10. atack special
+11. XXX
+12. XXX
+13. XXX
 
+
+## how to install
 (currently there is not an end project that can be installed.)
 
 
