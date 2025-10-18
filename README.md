@@ -25,7 +25,7 @@ The minimum specs for a computer to be able to run this game should be
 
 • Minimum disk space: 700 MB 
 
-• Ideally, you'll want a joystick with at least 6 buttons. 
+• Ideally, you'll want a joystick with at least 6 buttons. See controller-layout.jpg for layouts.
 
 ## License
 this software is released under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. the license can be found in the file named License.
