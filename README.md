@@ -42,6 +42,13 @@ for the controll sceme there are three controller options
 
 each button has a number that goes with it these are the recomended uses
 ### standard with stick
+1. atack standard
+2. player movement
+3. start
+4. slect
+5. atack special
+6. XXX
+7. XXX
 
 ### standard with plus pad
 1. atack standard
@@ -53,15 +60,6 @@ each button has a number that goes with it these are the recomended uses
 7. XXX
 
 ### full controller
-1. atack standard
-2. player movement
-3. start
-4. slect
-5. atack special
-6. XXX
-7. XXX
-
-## User inspiration inspirations
 1. atack standard
 2. player movement
 3. start
