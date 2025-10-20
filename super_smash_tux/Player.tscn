@@ -1,13 +1,23 @@
-[gd_scene load_steps=3 format=3 uid="uid://dmcov0ickd8v1"]
+[gd_scene load_steps=5 format=3 uid="uid://dmcov0ickd8v1"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0rwas"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_xhfnw"]
 
+[sub_resource type="PrismMesh" id="PrismMesh_0rwas"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xhfnw"]
+albedo_color = Color(0.9492286, 0.17312053, 0.09601978, 1)
+
 [node name="CharacterBody3D" type="CharacterBody3D"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="body" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_0rwas")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+[node name="body_collision" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_xhfnw")
+
+[node name="weapons" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.3113417e-08, 0, 1, 0, 0.3, 0, -0.3, 0, -4.371139e-08, 0.58841, 0.24365187, 0)
+mesh = SubResource("PrismMesh_0rwas")
+surface_material_override/0 = SubResource("StandardMaterial3D_xhfnw")
